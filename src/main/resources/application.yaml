@@ -1,0 +1,24 @@
+#spring.application.name=jaypractise
+
+spring:
+  application:
+    name : "jaypractise"
+
+Dlogging:
+  level:
+  - org:
+      springframework: TRACE
+  - com:
+      baeldung: TRACE
+
+logging:
+  level:
+    - web: DEBUG
+    - root: WARN
+    - com:
+      baeldung: TRACE
+
+
+
+
+
